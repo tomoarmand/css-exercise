@@ -1,51 +1,72 @@
 body {
-    background-color: black;
+    background-color: hsl(0, 0%, 8%);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    font-family: helvetica;
+    font-family: Inter;
 }
 
 .container {
-    background-color: white;
+    background-color: hsl(0, 0%, 12%);
     text-align: center;
-    height: 380px;
-    width: 250px;
+    height: 510px;
+    width: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    padding-top: 12px
 }
 
+h2 {
+    color: white;
+    margin-bottom: 0;
+    font-weight: 400;
+}
 
-p {
+.location {
     font-size: 14px;
-    padding-bottom: 22px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 25px
+}
+
+.about {
+    color: white;
+    font-size: 13px;
+    margin-top: 0;
+    font-weight: 100;
+    margin-bottom: 22px
 }
 
 .profile {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border-radius: 100px;
-}
-
-button {
-    display: block;
-    margin: 10px auto;
-    width: 120px;
-    height: 25px;
-    background-color: wheat;
-    border-radius: 10px;
-    border: 1px solid grey
+    font-size: 14px;
 }
 
 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto;
+    width: 250px;
+    height: 37px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    border: 0;
     text-decoration: none;
-    color: black
+    color: white;
+    font-weight: 500;
+    font-size: 13px
 }
 
-button:hover {
-    background-color: grey;
+a:hover {
+    background-color: hsl(75, 94%, 57%);
     transition-duration: 0.3s;
+    color: black;
 }
